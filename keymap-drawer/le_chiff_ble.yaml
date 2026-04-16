@@ -21,7 +21,7 @@ layers:
   - K
   - L
   - {t: \, s: '|'}
-  - {t: Z, h: '$$mdi:apple-keyboard-option$$'}
+  - Z
   - X
   - C
   - V
@@ -33,10 +33,10 @@ layers:
   - $$mdi:arrow-right-bold$$
   - $$mdi:mouse-left-click-outline$$
   - $$mdi:mouse-right-click-outline$$
-  - {t: '$$mdi:apple-keyboard-caps$$', h: '$$mdi:apple-keyboard-control$$'}
-  - {t: '$$mdi:keyboard-return$$', h: '$$mdi:apple-keyboard-shift$$'}
-  - {t: '$$mdi:keyboard-esc$$', h: '1'}
-  - {t: '$$mdi:backspace$$', h: '2'}
+  - $$mdi:apple-keyboard-control$$
+  - {t: RETURN, h: '$$mdi:apple-keyboard-option$$'}
+  - '1'
+  - '2'
   - {t: '$$mdi:keyboard-space$$', h: '$$mdi:backspace-reverse-outline$$'}
   - $$mdi:arrow-left-bold$$
   - {t: '9', s: (}
@@ -51,7 +51,7 @@ layers:
   - {h: '3', s: '$$mdi:bluetooth-connect$$'}
   - {h: '4', s: '$$mdi:bluetooth-connect$$'}
   - BT CLR ALL
-  - {t: '$$mdi:transfer$$', type: trans}
+  - $$mdi:keyboard-tab$$
   - {t: '[', s: '{'}
   - Sft+6
   - {t: Sft+;, s: 'Sft+:'}
@@ -361,25 +361,35 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
 combos:
+- p: [0, 1]
+  k: $$mdi:keyboard-esc$$
+- p: [8, 9]
+  k: {t: '$$mdi:backspace$$', type: backspace}
 - p: [3, 4]
-  k: '1'
-- p: [12, 13]
-  k: '2'
+  k: Sft+;
 - p: [13, 14]
-  k: '3'
-- p: [22, 23]
-  k: '4'
+  k: Sft+.
 - p: [23, 24]
-  k: {t: '5', s: '%'}
+  k: Sft+/
+- p: [12, 13]
+  k: Sft+1
+- p: [22, 23]
+  k: .
+- p: [11, 12]
+  k: '{'
+- p: [21, 22]
+  k: Sft+9
+- p: [10, 11]
+  k: Sft+2
+- p: [20, 21]
+  k: Sft+3
 - p: [15, 16]
-  k: '6'
+  k: Sft+5
 - p: [16, 17]
-  k: {t: '7', s: '&'}
+  k: {t: '-', s: _}
 - p: [17, 18]
-  k: {t: '8', s: '*'}
-- p: [25, 26]
-  k: {t: '9', s: (}
-- p: [26, 27]
-  k: {t: '0', s: )}
+  k: +
+- p: [32, 33]
+  k: $$mdi:apple-keyboard-caps$$
 - p: [29, 37]
   k: $$mdi:arrow-down-bold$$
