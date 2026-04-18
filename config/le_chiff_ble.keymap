@@ -113,19 +113,19 @@
 
         layer_1 {
             bindings = <
-&kp LS(NUMBER_1)  &kp LS(NUMBER_2)  &kp LS(NUMBER_3)  &kp LS(NUMBER_4)   &kp LS(N5)        &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_CLR_ALL
-&kp TAB           &kp LEFT_BRACKET  &kp LS(NUMBER_6)  &kp LS(SEMICOLON)  &kp LS(APOS)      &trans        &trans        &trans        &trans        &trans
-&trans            &trans            &kp APOS          &kp LS(QUESTION)   &kp LS(NUMBER_1)  &trans        &trans        &trans        &trans        &trans
-&trans            &trans            &trans            &trans             &trans            &trans        &trans        &trans        &trans
+&kp NUMBER_1  &kp NUMBER_2      &kp NUMBER_3      &kp NUMBER_4       &kp N5            &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_CLR_ALL
+&kp TAB       &kp LEFT_BRACKET  &kp LS(NUMBER_6)  &kp LS(SEMICOLON)  &kp LS(APOS)      &trans        &trans        &trans        &trans        &trans
+&trans        &kp LS(N9)        &kp APOS          &kp LS(QUESTION)   &kp LS(NUMBER_1)  &trans        &trans        &trans        &trans        &trans
+&trans        &trans            &trans            &trans             &trans            &trans        &trans        &trans        &trans
             >;
         };
 
         layer_2 {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &kp RS(NUMBER_6)  &kp RS(N7)     &kp RS(N8)  &kp RS(N9)  &kp RS(N0)
-&trans  &trans  &trans  &trans  &trans  &kp MINUS         &kp EQUAL      &kp K_MUTE  &none       &trans
-&trans  &trans  &trans  &trans  &trans  &kp RS(MINUS)     &kp RS(EQUAL)  &trans      &trans      &kp UP_ARROW
-&trans  &trans  &trans  &trans  &trans  &trans            &trans         &kp DOWN    &trans
+&trans  &trans  &trans  &trans  &trans  &kp NUMBER_6   &kp N7         &kp N8      &kp N9  &kp N0
+&trans  &trans  &trans  &trans  &trans  &kp MINUS      &kp EQUAL      &kp K_MUTE  &none   &trans
+&trans  &trans  &trans  &trans  &trans  &kp RS(MINUS)  &kp RS(EQUAL)  &trans      &trans  &kp UP_ARROW
+&trans  &trans  &trans  &trans  &trans  &trans         &trans         &kp DOWN    &trans
             >;
         };
 
